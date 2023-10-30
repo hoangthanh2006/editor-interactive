@@ -1,4 +1,5 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/editor-interactive.anhcaokeu.net
+    - export DEPLOYPATH=/home/ejrotecx/public_html/editor-interactive.anhcaokeu.net
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
